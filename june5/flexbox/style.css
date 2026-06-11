@@ -1,0 +1,8 @@
+#num {
+    display: flex;
+    background-color: blue;
+    height: 303px;
+    justify-content: center;
+    align-items: center;
+
+}
