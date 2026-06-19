@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theme toggle</title>
+</head>
+<body>
+    <h3 id="h3">Akaal!!</h3>
+    <button onclick="changeTheme()">click here</button>
+</body>
+<script>
+    let isDark = false;
+    function changeTheme(){
+        if(isDark){
+            document.body.style.background = "white";
+            h3.style.color = "black";
+            isDark=false;
+        }
+        else{
+             document.body.style.background = "black";
+            h3.style.color = "white";
+            isDark =true;
+        }
+    }
+</script>
+</html>
